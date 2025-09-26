@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextInput } from "react-native";
 
 
 export const stylesSignIn = StyleSheet.create({
@@ -8,4 +8,9 @@ export const stylesSignIn = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  TextInput:{  
+    Width:200;
+    height:50;
+    borderWidth:2;
+}
 });
